@@ -1,0 +1,68 @@
+body{
+    border: solid 20px #800000;
+    padding: 20px;
+    
+}
+
+.first-caption {
+    color: #800080;
+    font-size: 20pt;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    text-shadow: .1em .1em .2em #778899;
+    background-color: #CCAAFF;
+    text-align: center;
+    border: dashed 2px #DD22FF;
+   
+}
+.second-caption{
+    color: #4B0082;
+    font-size: 18pt;
+    letter-spacing: 8px;
+    word-spacing: 15px;
+    
+    background-color: #CC99FF;
+    text-align: center;
+    border-top: dotted 2px #8244FF;
+    border-bottom: dashed 2px #8244FF;
+}
+
+li{
+    max-width: 55%;
+    background-color: #DDA0DD;
+    cursor: pointer;
+}
+
+
+table{
+    border: solid 3px #293350;
+    padding: 20px;
+    /* border-spacing: 10px; */
+    width: 100%;
+}
+
+th, td{
+    text-align: center;
+    
+}
+
+td{
+    border: solid 2px #8899CD;
+    padding: 4px;
+}
+
+.name{
+    text-align: start;
+    cursor: help;
+}
+
+.table_two{
+    width: auto;
+    color: red;
+    border: dotted 3px #45CCFF;
+    cursor: nw-resize;
+}
+
+.table_two td{
+    border: dashed 2px blue;
+}
